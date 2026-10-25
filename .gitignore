@@ -1,0 +1,14 @@
+# --- Secrets: never commit ---
+secrets.env
+.env
+auth.json
+mcp-auth.json
+models-store.json
+config/extensions/web-search/auth.json
+*.pem
+*.key
+
+# --- Runtime / generated ---
+node_modules/
+sessions/
+*.Zone.Identifier
